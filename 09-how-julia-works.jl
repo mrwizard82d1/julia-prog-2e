@@ -1,10 +1,6 @@
 # How Julia works
 
-function print_banner(text::AbstractString)
-    println()
-    println(text)
-    println("=" ^ length(text))
-end
+include("00-common.jl")
 
 print_banner("How Julia works")
 
